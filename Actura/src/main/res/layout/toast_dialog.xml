@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#e9eaed"
+    android:id="@+id/discuss_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <com.oluseun.diamondscripts.imonitors_final.CustomTextViews.TextViewLight
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/toast_message"
+                android:layout_marginLeft="17sp"
+                android:layout_marginRight="14sp"
+                android:layout_marginTop="12sp"
+                android:textSize="21sp"
+                android:textColor="#282e6c"
+                android:text="You are about to go back to the menu page. All stored data will be cleared. Continue?"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/remove_dialog"
+                android:background="@drawable/enter_button"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_height="55dip"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="19sp"
+                android:layout_marginBottom="14sp"
+                android:layout_marginLeft="14sp"
+                android:layout_marginRight="14sp"
+                android:layout_marginTop="36sp"
+                android:text="OK"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

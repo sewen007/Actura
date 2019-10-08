@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ACTURA_Reader.iml" filepath="$PROJECT_DIR$/ACTURA_Reader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Actura/Actura.iml" filepath="$PROJECT_DIR$/Actura/Actura.iml" />
+      <module fileurl="file://D:\Seun\ACTURA_Reader\Actura\UHF.iml" filepath="D:\Seun\ACTURA_Reader\Actura\UHF.iml" />
+    </modules>
+  </component>
+</project>

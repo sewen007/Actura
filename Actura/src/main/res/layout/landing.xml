@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#e9eaed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:id="@+id/rootView"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="true"
+                android:id="@+id/login_first_container"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="1sp"
+                    android:id="@+id/login_call_performer"
+                    android:orientation="vertical"/>
+                <TextView
+                    android:id="@+id/scanned_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#111"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:id="@+id/textView_epc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                <ListView
+                    android:id="@+id/listView_epc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tableRow1"
+                    android:drawSelectorOnTop="false"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/tag_button"
+                    android:background="#FFD700"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dip"
+                    android:textStyle="bold"
+                    android:textColor="#111"
+                    android:textSize="19sp"
+                    android:layout_marginBottom="1sp"
+                    android:layout_marginLeft="14sp"
+                    android:layout_marginRight="14sp"
+                    android:layout_marginTop="0sp"
+                    android:text="Tagging"/>
+
+                <Spinner
+                    android:id="@+id/spinner_workareas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="gone"/>
+
+
+                <Button
+                    android:id="@+id/release_button"
+                    android:background="#FFD700"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dip"
+                    android:textStyle="bold"
+                    android:textColor="#111"
+                    android:textSize="19sp"
+                    android:layout_marginTop="45sp"
+                    android:layout_marginBottom="1sp"
+                    android:layout_marginLeft="14sp"
+                    android:layout_marginRight="14sp"
+                    android:text="Release"/>
+
+                <Spinner
+                    android:id="@+id/spinner_workchannel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+
+
+                <Button
+                    android:id="@+id/utilize"
+                    android:background="#FFD700"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dip"
+                    android:textStyle="bold"
+                    android:textColor="#111"
+                    android:textSize="19sp"
+                    android:layout_marginTop="45sp"
+                    android:layout_marginBottom="1sp"
+                    android:layout_marginLeft="14sp"
+                    android:layout_marginRight="14sp"
+                    android:text="Utilization"/>
+
+                <Spinner
+                    android:id="@+id/spinner_workautofh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="gone"/>
+
+
+                <Button
+                    android:id="@+id/verify"
+                    android:background="#FFD700"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dip"
+                    android:textStyle="bold"
+                    android:textColor="#111"
+                    android:textSize="19sp"
+                    android:layout_marginTop="45sp"
+                    android:layout_marginBottom="1sp"
+                    android:layout_marginLeft="14sp"
+                    android:layout_marginRight="14sp"
+                    android:text="Verification"/>
+                <Spinner
+                    android:id="@+id/spinner_workpower"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="gone"/>
+                <Spinner
+                    android:id="@+id/spinner_workcontinnouswave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="gone"/>
+
+                <Spinner
+                    android:id="@+id/spinner_workmoden_mixer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="gone"/>
+                <Spinner
+                    android:id="@+id/spinner_workmoden_ifamp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="gone"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
